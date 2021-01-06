@@ -182,7 +182,7 @@ body {
   background-color: #f7391c;
   display: inline-flex;
   position: absolute;
-  left: calc(100% + 5px);
+  left: calc(100% + 10px);
   top: 50%;
 }
 
@@ -210,6 +210,7 @@ body {
   bottom: 0;
   top: 0;
 }
+
 @media screen and (max-width: 1440px) {
   .grid {
     column-gap: 2em;
@@ -250,6 +251,7 @@ body {
     text-align: center;
     margin-top: 2em;
   }
+
   .asset {
     display: none;
   }
